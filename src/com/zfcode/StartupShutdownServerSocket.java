@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 
 public class StartupShutdownServerSocket {
 	public static ServerSocket serverSocket=null;
-	public static Logger logger=LoggerFactory.getLogger(StartupShutdownClientSocket.class);
+	public static Logger logger=LoggerFactory.getLogger(StartupShutdownServerSocket.class);
 	
 	public static void main(String[] args) throws Exception {
 		if(serverSocket==null){
